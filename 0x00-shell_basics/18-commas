@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -mparX
+ls -mparvX
