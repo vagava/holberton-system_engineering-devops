@@ -1,4 +1,3 @@
 #!/usr/bin/env bash
 #Bash script that kills the process 7-highlander.
-pid=$(pgrep -f "7-highlander")
-kill -SIGKILL $pid
+kill -s SIGQUIT "$( ps -aux | awk '/7-highlander/ { print $2 }' | head -1 )"
