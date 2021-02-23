@@ -63,3 +63,5 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 - Your Bash script must pass shellcheck without any error
 - The first line of all your Bash scripts should be exactly #!/usr/bin/env bash
 - The second line of all your Bash scripts should be a comment explaining what is the script doing
+
+<h6>By Vanessa Garcia</h6>
