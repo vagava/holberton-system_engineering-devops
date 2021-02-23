@@ -20,8 +20,8 @@ Read or watch:
 
 ### man or help:
 
-- `<netstataddr>`
-- `<addr>` ping
+- `netstataddr`
+- `ping`
 
 ## Learning Objectives
 At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
