@@ -43,6 +43,8 @@ Valor maximo permitido para PID  es *32.767*. Este nuemero se puede configurar y
 	- `top`.
 	- `pidof`.
 
+*Nota*: en la variable de bash "$$" se almacena el id del script. (mas informacion [aqui](https://atareao.es/tutorial/scripts-en-bash/variables-en-bash/))
+
 ### Señales de linux
 
 Las señales son interrupciones de software.
