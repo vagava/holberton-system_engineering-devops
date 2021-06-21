@@ -12,7 +12,9 @@
 
 - `exit`: causar la terminación normal del proceso. Recibe las siguientes constantes EXIT_SUCCESS y EXIT_FAILURE.
 
-- `trap`: Señales de trampa y otros eventos. -l: imprimir una lista de nombres de señales y sus correspondientes números. -p mostrar los comandos trap asociados a cada SIGNAL_SPEC
+- `trap`: Señales de trampa y otros eventos. 
+	- *-l*: imprimir una lista de nombres de señales y sus correspondientes números.
+	- *-p*: mostrar los comandos trap asociados a cada SIGNAL_SPEC.
 
 ### Conceptos:
 
