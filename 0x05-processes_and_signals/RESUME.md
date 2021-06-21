@@ -22,18 +22,9 @@ El proceso *init* siempre tendra el mismo PID = 1, ya que siempre es el primer p
 Valor maximo permitido para PID  es *32.767*. Este nuemero se puede configurar y dependera de la cantidad de memoria fisica disponible (RAM).
 
 - comandos para encontrar los PID:
-	`ps`.
-	`pstree`.
-	`top`.
-	`pidof`.
+	- `ps`.
+	- `pstree`.
+	- `top`.
+	- `pidof`.
 
 - **Linux Processes**:
-
-
-
-
-len=0
-array[]="hola que mas \0"
-
-for(len = 0; array[len] != '\0', len++)
-{}
