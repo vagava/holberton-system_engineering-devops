@@ -17,8 +17,21 @@
 	- *-p*: mostrar los comandos trap asociados a cada SIGNAL_SPEC.
 
 ### Conceptos:
+- **Procesos de Linux**
 
-- **PID**:
+El proceso es una instancia de un programa en ejecucion.
+
+El contexto de un programa es la esencia del proceso, este se defien por el programa, el espacio en memoria que ocupa y los procesos hijos que manda a llamar.
+
+los procesos hijos inician siendo una copia exacta del procedo 'padre' para poder llamar al programa o tarea corespondiente, de esta manera el proceso padre (principal) comparte con sus hijos los recursos del sistema que este consumiendo, sus atributos de seguridad (propietario, permisos de archivo, roles, etc).
+
+Programas y procesos con entidades distintas, cuado se ejecuta un programa 3 veces significa que hay 3 instancias del mismo programa, osea 3 procesos distintos. Cada proceso que se inicia es referenciado con su **Process ID (PID)**.
+
+Practicamente todo lo que se esta ejecutando en el sistema en cualquier momento es un proceso, incluyendo la **shell**, el ambiente grafico, el **stack** deprotocolos de red, etc. La excepcion a lo anterior es el **kernel**, el cual es un conjunto de rutinas que residen en la memoria y que, entre otras cosas, administra el planificador que se encarga de controlar los procesos.
+
+
+- **PID** (*Proces ID*)
+
 Es un numero de identificacion que se asigna automaticamente a acada proceso cuando secrea en el sistema operativo. Cada numero PID es unico, entero, no negativo.
 El proceso *init* siempre tendra el mismo PID = 1, ya que siempre es el primer proceso y elantecesor de todos los demas.
 Valor maximo permitido para PID  es *32.767*. Este nuemero se puede configurar y dependera de la cantidad de memoria fisica disponible (RAM).
@@ -29,4 +42,10 @@ Valor maximo permitido para PID  es *32.767*. Este nuemero se puede configurar y
 	- `top`.
 	- `pidof`.
 
-- **Linux Processes**:
+- **Señales de linux**
+
+
+
+
+
+
