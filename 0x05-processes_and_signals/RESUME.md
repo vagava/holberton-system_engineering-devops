@@ -48,8 +48,9 @@ Valor maximo permitido para PID  es *32.767*. Este nuemero se puede configurar y
 Las señales son interrupciones de software.
 
 En linux las señales empiezan con los caracteres SIG. Ejemplo:
-	- SIGINT:Señal que se genera cuando se preciona ctrl+c desde la terminal.
-	- SIGABRT: Señal que se genera cuando se llama a la funcion abnorto.
+- SIGINT:Señal que se genera cuando se preciona ctrl+c desde la terminal.
+- SIGABRT: Señal que se genera cuando se llama a la funcion abnorto.
+
 - #### Manejo de señales
 Cuando ocurre una señal, el proceso debe deirle al kernel que hacer con ella, exixten tres opciones:
 
