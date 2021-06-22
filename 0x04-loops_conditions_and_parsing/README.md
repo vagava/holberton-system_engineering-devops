@@ -13,12 +13,12 @@ Read or watch:
 - [Make your scripts portable](https://www.cyberciti.biz/tips/finding-bash-perl-python-portably-using-env.html)
 
 man or help:
-`env`
-`cut`
-`for`
-`while`
-`until`
-`if`
+- `env`
+- `cut`
+- `for`
+- `while`
+- `until`
+- `if`
 
 ## Learning Objectives
 At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
