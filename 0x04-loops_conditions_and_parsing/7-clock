@@ -12,5 +12,5 @@ do
 		minu=$((minu + 1))
 	done
 hours=$((hours + 1))
-minu=0
+minu=1
 done
