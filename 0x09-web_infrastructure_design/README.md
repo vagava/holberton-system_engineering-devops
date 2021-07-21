@@ -25,10 +25,10 @@ Read or watch:
 ## flow charts
 
 ### Simple web stack
-![0](https://imgur.com/rbdcmAP)
+![0](https://i.imgur.com/rbdcmAP.jpeg)
 
 ### Distributed web infrastructure
-![1](https://imgur.com/GzWtxJ3)
+![1](https://i.imgur.com/GzWtxJ3.jpeg)
 
 ### Secured and monitored web infrastructure
-![2]](https://imgur.com/GzWtxJ3)
+![2]](https://i.imgur.com/GzWtxJ3.jpeg)
