@@ -32,3 +32,8 @@ Read or watch:
 
 ### Secured and monitored web infrastructure
 ![2](https://i.imgur.com/GzWtxJ3.jpeg)
+
+# Authors
+
+- [Vanessa Garcia](https://www.linkedin.com/in/vanessa-garcia-vargas-sofware-developer/)
+- [Ana Maria Roman](https://www.linkedin.com/in/ana-maria-roman-valencia-577372174/)
