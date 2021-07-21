@@ -31,4 +31,4 @@ Read or watch:
 ![1](https://i.imgur.com/GzWtxJ3.jpeg)
 
 ### Secured and monitored web infrastructure
-![2]](https://i.imgur.com/GzWtxJ3.jpeg)
+![2](https://i.imgur.com/GzWtxJ3.jpeg)
