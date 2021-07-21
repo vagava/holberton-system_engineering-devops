@@ -20,3 +20,15 @@ Read or watch:
 - [High availability cluster (active-active/active-passive)]()
 - [What is HTTPS]()
 - [What is a firewall]()
+
+
+## flow charts
+
+### Simple web stack
+![0](https://imgur.com/rbdcmAP)
+
+### Distributed web infrastructure
+![1](https://imgur.com/GzWtxJ3)
+
+### Secured and monitored web infrastructure
+![2]](https://imgur.com/GzWtxJ3)
