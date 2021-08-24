@@ -1,16 +1,10 @@
 #!/usr/bin/env bash
-#script for to configure the load balancer.
-#install haproxy
-sudo apt-get update && apt-get install haproxy -y
-sudo chown -R ubuntu /etc/default/
-# enable the service as daemon
-echo 'ENABLED=1' >>  /etc/default/haproxy
-# Configure HAProxy
-# define the back-end web servers where it will send the request.
-#add “check” parameter at the end of above three line to check health parameter of your web servers.
-back = '\nbackend web-backend\n\tbalance roundrobin\n\tserver 2380-web-01 34.138.40.16:80 check\n\tserver 2380-web-02 35.173.128.216:80 check'
-sudo echo '$back' >> /etc/haproxy/haproxy.cfg
-# A "front end" section describes a set of listening sockets accepting client connections
-front = '\nfrontend http\n\tbind *:80\n\tdefault_backend web-backend'
-sudo echo '$front' >> /etc/haproxy/haproxy.cfg
+# setting a new load balancer
+sudo apt-get update
+sudo apt-get install haproxy -y
+sudo chmod 777 /etc/default/haproxy
+sudo echo "ENABLED=1" >> /etc/default/haproxy
+sudo chmod 777 /etc/haproxy/haproxy.cfg
+sudo printf "\nfrontend http_front\n\tbind *:80\n\tdefault_backend http_back\n" >> /etc/haproxy/haproxy.cfg
+sudo printf "\nbackend http_back\n\tbalance roundrobin\n\tserver web-01 34.73.50.135:80 check\n\tserver web-02 52.73.46.71:80 check" >> /etc/haproxy/haproxy.cfg
 sudo service haproxy restart
