@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Add head for request HTTP
+new_string="add_header X-Served-By \$HOSTNAME\ntry_files \$uri \$uri\/ =404;"
+sudo sed -i "s/try_files \$uri \$uri\/ =404;/$new_string/" /etc/nginx/sites-available/default
