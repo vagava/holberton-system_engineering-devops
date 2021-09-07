@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# script that runs with a user passed as an argument.}
+if [ "$#" -eq 1 ]
+then
+	sudo -u "$1" whoami
+elif [ "$#" -eq 0 ]
+then
+	whoami
+fi
