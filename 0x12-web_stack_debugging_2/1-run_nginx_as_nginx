@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# nginx must be running as nginx user
+
+sudo service nginx stop
+# Add default port
+sed -i "s/80 default_server/8080 default_server/" /etc/nginx/sites-available/default
+# Change permissions
+sudo chmod 644 /etc/nginx/nginx.conf
+pkill -f apache2
+sudo -u nginx service nginx start
