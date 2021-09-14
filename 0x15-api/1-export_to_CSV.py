@@ -20,4 +20,4 @@ if __name__ == "__main__":
         for i in todos:
             if i.get("userId") == int(sys.argv[1]):
                 w.writerow([sys.argv[1], name,
-                                 i.get("completed"), i.get("title")])
+                            i.get("completed"), i.get("title")])
