@@ -11,7 +11,8 @@ def top_ten(subreddit):
     request = requests.get(
         url, headers={'User-Agent': 'Va_gava'}, allow_redirects=False)
     if request.status_code != 200:
-        return 0
+        print(None)
+        return
     data = request.json()
     list_children = data['data']['children']
     for i in range(10):
